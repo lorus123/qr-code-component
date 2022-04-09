@@ -18,11 +18,6 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: #d6e2f0;
   font-size: 1.5rem;
-}
-
-main {
-  overflow: hidden;
-  height: 100vh;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,6 +28,10 @@ main {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+main {
+  /* height: 100vh; */
 }
 
 @media screen and (max-width: 425px) {
