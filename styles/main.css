@@ -7,9 +7,12 @@
 
 html {
   font-size: 62.5%;
+  height: -webkit-fill-available;
 }
 
 body {
+  min-height: -webkit-fill-available;
+
   text-align: center;
   font-weight: 400;
   font-family: "Outfit", sans-serif;
